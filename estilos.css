@@ -28,3 +28,24 @@ body{
   text-decoration:none;
   font-size:28px;
 }
+.card{
+  transition:0.3s;
+  border:none;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+}
+
+.card img{
+  height:300px;
+  object-fit:cover;
+}
+
+footer{
+  margin-top:30px;
+}
+
+h2{
+  font-weight:bold;
+}
