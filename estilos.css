@@ -151,3 +151,16 @@ body{
     padding: 8px 10px;
     font-size: 0.95rem;
 }
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .nav-link {
+        font-size: 0.9rem;
+    }
+}
