@@ -142,3 +142,12 @@ body{
     border-radius:15px;
     border:2px solid #d8e8f8;
 }
+.navbar-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navbar-nav .nav-link {
+    padding: 8px 10px;
+    font-size: 0.95rem;
+}
