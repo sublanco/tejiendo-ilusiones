@@ -109,3 +109,18 @@ body{
     color:#6fa8dc;
     font-weight:bold;
 }
+.hero-foto{
+    width:100%;
+    max-width:350px;
+    border-radius:20px;
+    margin:20px auto;
+    display:block;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+.link-btn{
+    background:white;
+    border-radius:20px;
+    padding:18px;
+    font-size:1.1rem;
+    font-weight:bold;
+}
