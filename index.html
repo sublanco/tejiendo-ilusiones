@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tejiendo Ilusiones</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="estilos.css">
 </head>
 
@@ -18,22 +20,37 @@
     </a>
 </header>
 
-<section id="gorritos">
-    <h2>Gorritos</h2>
+<section id="gorritos" class="py-5">
+  <div class="container">
 
-    <div class="galeria">
+    <h2 class="text-center mb-4">
+      🧶 Gorritos
+    </h2>
 
-        <div class="card">
-            <img src="img/gorro1.jpg">
-            <h3>Gorro Celeste y Blanco</h3>
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card shadow h-100">
+
+          <img src="img/gorro1.jpg"
+               class="card-img-top">
+
+          <div class="card-body">
+            <h5 class="card-title">
+              Gorrito Celeste y Blanco
+            </h5>
+
+            <p class="card-text">
+              Tejido artesanal.
+            </p>
+          </div>
+
         </div>
-
-        <div class="card">
-            <img src="img/gorro2.jpg">
-            <h3>Gorro Liso</h3>
-        </div>
+      </div>
 
     </div>
+
+  </div>
 </section>
 
 <section id="pulseras">
@@ -68,6 +85,6 @@
 <footer>
     <p>© Tejiendo Ilusiones</p>
 </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
