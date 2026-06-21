@@ -126,3 +126,17 @@ body{
     font-size:1.1rem;
     font-weight:bold;
 }
+.mini-galeria{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin:25px 0;
+}
+
+.mini-galeria img{
+    width:110px;
+    height:110px;
+    object-fit:cover;
+    border-radius:15px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
