@@ -164,3 +164,6 @@ body{
         font-size: 0.9rem;
     }
 }
+.navbar-brand img {
+    width: 40px;
+}
