@@ -167,3 +167,34 @@ body{
 .navbar-brand img {
     width: 40px;
 }
+.logo{
+    max-width:180px;
+    border-radius:50%;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+
+.subtitulo{
+    font-size:1.2rem;
+    margin-bottom:20px;
+}
+
+.link-btn{
+    display:block;
+    max-width:300px;
+    margin:10px auto;
+    padding:12px;
+    background:white;
+    color:#333;
+    text-decoration:none;
+    border-radius:12px;
+    font-weight:bold;
+}
+
+.link-btn:hover{
+    transform:scale(1.03);
+}
+
+.whatsapp{
+    background:#25D366;
+    color:white;
+}
