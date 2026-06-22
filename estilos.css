@@ -129,7 +129,7 @@ body{
 
 .mini-galeria{
     display:grid;
-    grid-template-columns:repeat(3,120px);
+    grid-template-columns:repeat(3,100px);
     justify-content:center;
     gap:12px;
     margin:25px 0;
