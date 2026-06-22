@@ -198,3 +198,19 @@ body{
     background:#25D366;
     color:white;
 }
+.redes-sociales{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin:20px 0;
+}
+
+.redes-sociales a{
+    font-size:2.2rem;
+    color:#356;
+    text-decoration:none;
+}
+
+.redes-sociales a:hover{
+    transform:scale(1.15);
+}
