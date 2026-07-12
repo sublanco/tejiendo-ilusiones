@@ -221,5 +221,33 @@ transform:translateY(-10px);
 transform:translateY(0px);
 
 }
+}
+/*=========================================
+FOOTER
+=========================================*/
+
+.footer{
+
+    background:#27548A;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.logo-footer{
+    width:90px;
+    height:auto;
+    margin-bottom:15px;
+}
+
+.footer h4{
+    margin-bottom:10px;
+    font-weight:600;
+}
+
+.footer p{
+    margin:5px 0;
+    opacity:0.9;
+}
 
 }
