@@ -1,6 +1,8 @@
-/*==========================
-TEJIENDO ILUSIONES
-==========================*/
+/*=========================================
+TEJIENDO ILUSIONES 2.0
+=========================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 *{
     margin:0;
@@ -13,317 +15,211 @@ html{
 }
 
 body{
+
     font-family:'Poppins',sans-serif;
-    background:#eef7ff;
-    color:#2f4858;
+
+    background:#f8fbff;
+
+    color:#444;
+
 }
 
-/*==========================
+/*=========================================
+COLORES
+=========================================*/
+
+:root{
+
+--celeste:#8ecae6;
+
+--azul:#4f7fb6;
+
+--azulOscuro:#27548A;
+
+--blanco:#ffffff;
+
+--gris:#f2f5f8;
+
+--verde:#25D366;
+
+--sombra:0 10px 25px rgba(0,0,0,.10);
+
+}
+
+/*=========================================
+BARRA SUPERIOR
+=========================================*/
+
+.promo-top{
+
+background:linear-gradient(90deg,#6fb9ff,#8ecae6);
+
+color:white;
+
+text-align:center;
+
+padding:10px;
+
+font-weight:600;
+
+letter-spacing:.5px;
+
+}
+
+/*=========================================
 NAVBAR
-==========================*/
+=========================================*/
 
 .navbar{
-    background:white!important;
-    padding:12px 0;
+
+background:white!important;
+
+box-shadow:0 3px 12px rgba(0,0,0,.08);
+
+padding:15px;
+
 }
 
 .logo-menu{
-    width:55px;
-    border-radius:50%;
+
+width:60px;
+
+border-radius:50%;
+
 }
 
 .titulo-menu{
-    margin-left:12px;
-    font-size:1.4rem;
-    font-weight:600;
-    color:#4f7fb6;
+
+margin-left:15px;
+
+font-size:1.5rem;
+
+font-weight:700;
+
+color:var(--azul);
+
 }
 
 .nav-link{
-    color:#4f7fb6!important;
-    font-weight:500;
-    margin-left:12px;
+
+font-weight:500;
+
+margin-left:10px;
+
+color:#555!important;
+
+transition:.3s;
+
 }
 
 .nav-link:hover{
-    color:#1d4f91!important;
+
+color:var(--azul)!important;
+
 }
 
-/*==========================
+/*=========================================
 HERO
-==========================*/
+=========================================*/
 
 .hero{
-    padding:60px 20px;
-    text-align:center;
+
+padding:80px 0;
+
+background:linear-gradient(#eef8ff,#ffffff);
+
 }
 
 .logo-principal{
-    width:230px;
-    margin-bottom:20px;
+
+width:300px;
+
+animation:flotar 4s infinite;
+
 }
 
 .hero h1{
-    color:#4f7fb6;
-    font-size:3rem;
-    font-weight:700;
-}
 
-.subtitulo{
-    margin-top:10px;
-    font-size:1.2rem;
-    color:#6d8fb2;
-    line-height:1.8;
-}
+font-size:3.4rem;
 
-.boton-principal{
-    margin-top:30px;
-    padding:14px 35px;
-    border-radius:50px;
-    font-size:1.1rem;
-}
-/*==========================
-CARRUSEL
-==========================*/
+font-weight:800;
 
-.carousel{
-    border-radius:25px;
-    overflow:hidden;
-    box-shadow:0 10px 25px rgba(0,0,0,.12);
-    margin-bottom:60px;
-}
-
-.imagen-carrusel{
-    height:800px;
-    object-fit:cover;
-}
-
-/*==========================
-TÍTULOS
-==========================*/
-
-.titulo-seccion{
-    text-align:center;
-    color:#4f7fb6;
-    font-size:2rem;
-    font-weight:700;
-    margin-bottom:40px;
-}
-
-/*==========================
-PRODUCTOS
-==========================*/
-
-.producto{
-    background:#fff;
-    border-radius:25px;
-    padding:20px;
-    text-align:center;
-    box-shadow:0 8px 18px rgba(0,0,0,.10);
-    transition:all .3s ease;
-    height:100%;
-}
-
-.producto:hover{
-    transform:translateY(-8px);
-    box-shadow:0 18px 35px rgba(0,0,0,.18);
-}
-
-.producto img{
-    width:100%;
-    height:320px;
-    object-fit:cover;
-    border-radius:20px;
-}
-
-.producto h4{
-    margin-top:18px;
-    color:#3f6fa7;
-    font-weight:600;
-}
-
-.producto p{
-    color:#666;
-    margin:15px 0;
-}
-
-.producto .btn{
-    border-radius:30px;
-    padding:10px 25px;
-}
-
-/*==========================
-SOBRE MI
-==========================*/
-
-.sobre-mi{
-    background:white;
-    border-radius:25px;
-    padding:40px;
-    box-shadow:0 8px 20px rgba(0,0,0,.08);
-}
-
-.sobre-mi h2{
-    color:#4f7fb6;
-    text-align:center;
-    margin-bottom:25px;
-}
-
-.sobre-mi p{
-    font-size:1.1rem;
-    line-height:1.9;
-    text-align:center;
-}
-
-/*==========================
-FOOTER
-==========================*/
-
-footer{
-    background:#dbeeff;
-    margin-top:70px;
-    padding:40px;
-    text-align:center;
-}
-
-.logo-footer{
-    width:130px;
-    margin-bottom:15px;
-}
-
-footer p{
-    margin:6px;
-    color:#4f7fb6;
-}
-/*==================================
-BOTÓN FLOTANTE WHATSAPP
-==================================*/
-
-.whatsapp-float{
-    position:fixed;
-    bottom:20px;
-    right:20px;
-    width:65px;
-    height:65px;
-    background:#25D366;
-    color:white;
-    border-radius:50%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-decoration:none;
-    font-size:32px;
-    box-shadow:0 8px 20px rgba(0,0,0,.25);
-    z-index:999;
-    transition:.3s;
-}
-
-.whatsapp-float:hover{
-    transform:scale(1.10);
-}
-
-/*==================================
-ANIMACIONES
-==================================*/
-
-.producto{
-    animation:aparecer .8s ease;
-}
-
-@keyframes aparecer{
-
-from{
-    opacity:0;
-    transform:translateY(40px);
-}
-
-to{
-    opacity:1;
-    transform:translateY(0);
-}
+color:var(--azulOscuro);
 
 }
 
-/*==================================
-RESPONSIVE
-==================================*/
+.frase{
 
-@media(max-width:992px){
+margin-top:15px;
 
-.hero h1{
-    font-size:2.3rem;
-}
+font-size:1.7rem;
 
-.logo-principal{
-    width:180px;
-}
+font-weight:500;
 
-.imagen-carrusel{
-    height:320px;
-}
+color:var(--azul);
+
+font-style:italic;
 
 }
 
-@media(max-width:768px){
+.hero p{
 
-.navbar-brand{
-    font-size:1rem;
-}
+font-size:1.15rem;
 
-.logo-menu{
-    width:45px;
-}
+line-height:1.9;
 
-.titulo-menu{
-    font-size:1.1rem;
-}
-
-.hero{
-    padding:40px 15px;
-}
-
-.hero h1{
-    font-size:2rem;
-}
-
-.subtitulo{
-    font-size:1rem;
-}
-
-.imagen-carrusel{
-    height:250px;
-}
-
-.producto img{
-    height:250px;
-}
-
-.sobre-mi{
-    padding:25px;
-}
-
-footer{
-    padding:25px;
-}
+margin-top:25px;
 
 }
 
-@media(max-width:576px){
+.btn-primary{
 
-.logo-principal{
-    width:150px;
+background:var(--azul);
+
+border:none;
+
+padding:14px 30px;
+
+border-radius:50px;
+
 }
 
-.hero h1{
-    font-size:1.7rem;
+.btn-success{
+
+border-radius:50px;
+
+padding:14px 30px;
+
 }
 
-.titulo-seccion{
-    font-size:1.5rem;
+.btn-primary:hover{
+
+background:var(--azulOscuro);
+
 }
 
-.boton-principal{
-    width:100%;
+/*=========================================
+ANIMACIÓN
+=========================================*/
+
+@keyframes flotar{
+
+0%{
+
+transform:translateY(0px);
+
+}
+
+50%{
+
+transform:translateY(-10px);
+
+}
+
+100%{
+
+transform:translateY(0px);
+
 }
 
 }
